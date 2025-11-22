@@ -43,7 +43,7 @@ export default async function handler(req, res) {
             },
             body: JSON.stringify({
                 // IDM-VTON 的模型版本 ID
-                version: "c871e91c0372f922b959e00877f930b9f498cb962d663922aa3b35c1738ce913", 
+                version: "0513734a452173b8173e907e3a59d19a36266e55b48528559432bd21c7d7e985", 
                 input: {
                     human_img: model_image,     // 模特图
                     garm_img: cloth_image,      // 衣服图
